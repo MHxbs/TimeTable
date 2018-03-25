@@ -1,0 +1,3 @@
+# TimeTable
+
+大概思路： 通过按列表查询，因为有些课一周有两节课，所以getTimetableFirst得到大部分信息 之后getTimetableRest得到一周有多节课的信息 因为这样得到的信息没有排序，则用Collection.sort()重写Comparator来进行排序
